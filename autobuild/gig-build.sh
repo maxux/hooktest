@@ -3,6 +3,6 @@ echo "IM THE AUTOBUILD"
 ls /
 
 mkdir -p /target
-echo "Hello" > /target/output
+echo "Hello I'm a kernel haha" > /target/vmlinuz.txt
 
 echo "DONE"
