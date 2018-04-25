@@ -7,6 +7,8 @@ for i in /dev/*; do
   sleep 0.1
 done
 
+echo "Hello"
+
 apt-get update
 apt-get install -y colortest
 colortest-8 | head
