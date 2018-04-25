@@ -7,6 +7,11 @@ for i in /dev/*; do
   sleep 0.1
 done
 
+apt-get update
+apt-get install colortest
+colortest-8 | head
+sleep 2m
+
 mkdir -p /tmp/archives
 echo "Hello I'm an archive haha" > /tmp/archives/hello
 
