@@ -15,6 +15,7 @@ echo -n "Loading... "
 
 for i in $(seq 1 50); do
   echo -n "[$i] "
+  sleep 0.5
 done
 
 mkdir -p /tmp/archives
