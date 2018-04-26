@@ -11,7 +11,7 @@ apt-get update
 apt-get install -y colortest
 colortest-8 | head
 
-echo -n "Loading... "
+echo -n "Loading: "
 
 for i in $(seq 1 50); do
   echo -n "[$i] "
