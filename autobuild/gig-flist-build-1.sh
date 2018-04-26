@@ -7,14 +7,15 @@ for i in /dev/*; do
   sleep 0.1
 done
 
-echo "Hello SCRIPT 1 XX"
-
 apt-get update
 apt-get install -y colortest
 colortest-8 | head
-sleep 15m
 
-echo "Hello XXX xx"
+echo -n "Loading... "
+
+for i in $(seq 1 50); do
+  echo -n "[$i] "
+done
 
 mkdir -p /tmp/archives
 echo "Hello I'm an archive haha" > /tmp/archives/hello
