@@ -7,7 +7,7 @@ for i in /dev/*; do
   sleep 0.1
 done
 
-echo "Hello"
+echo "Hello X"
 
 apt-get update
 apt-get install -y colortest
