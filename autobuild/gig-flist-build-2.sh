@@ -16,7 +16,7 @@ echo "BUILD 2"
 
 sleep 15
 
-echo "Hello XXX xXXXx"
+echo "HelloXX XXX xXXXx"
 
 mkdir -p /tmp/archives
 echo "Hello I'm an archive haha" > /tmp/archives/hello
