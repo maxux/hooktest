@@ -14,7 +14,7 @@ apt-get install -y colortest
 colortest-8 | head
 echo "BUILD 2"
 
-sleep 25
+sleep 15
 
 echo "Hello XXX xx"
 
