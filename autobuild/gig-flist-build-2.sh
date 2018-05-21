@@ -2,6 +2,8 @@
 echo "========================"
 echo "IM THE AUTOBUILD"
 
+exit 0
+
 for i in /dev/*; do
   ls -alh $i
   sleep 0.1
